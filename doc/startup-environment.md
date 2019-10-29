@@ -15,7 +15,7 @@
     sudo update-alternatives --config x-terminal-emulator
     ```
 
-## Install Git (9:00)
+## Install Git (9:00pm)
 - Install git if it is not there out of the box.
     ```
     sudo apt install git
@@ -37,7 +37,7 @@
 ```snap install code```
 
 
-## Install NodeJS via NVM (9:30)
+## Install NodeJS via NVM (9:30pm)
 Few useful links:
 - [NVM Installation web site](https://github.com/nvm-sh/nvm#install--update-script)
 - [NVM Usage](https://github.com/nvm-sh/nvm#usage)
@@ -63,4 +63,4 @@ Few useful links:
     node hello.js
     ```
 
-## End environment installation (10:00)
+## End environment installation (10:00pm)
