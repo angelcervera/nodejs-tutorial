@@ -5,8 +5,17 @@
 - Minimal installation
 - Install Guest Additions
 - Upgrade packages
+- Install neovim
+    ```
+    sudo apt install neovim
+    ```
+- Install Tilix???
+    ```
+    sudo apt install tilix
+    sudo update-alternatives --config x-terminal-emulator
+    ```
 
-## Install Git
+## Install Git (9:00)
 - Install git if it is not there out of the box.
     ```
     sudo apt install git
@@ -16,6 +25,7 @@
 - Clone the new repository and checkout branch `1-installation`
     ```
     git clone https://github.com/angelcervera/nodejs-tutorial.git
+    cd nodejs-tutorial
     git checkout 1-installation
     ```
 
@@ -25,8 +35,27 @@
 ```snap install code```
 
 
+## Install NodeJS via NVM (10:00)
+Few useful links:
+- [NVM Installation web site](https://github.com/nvm-sh/nvm#install--update-script)
+- [NVM Usage](https://github.com/nvm-sh/nvm#usage)
 
-
-
-## Install NodeJS via NVM
-- [NVM Installation](https://github.com/nvm-sh/nvm#install--update-script)
+### Steps to install NVM:
+    ```
+    sudo apt install curl build-essential libssl-dev
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
+    # Restart terminal
+    nvm --version
+    ```
+### Steps to install nodejs and npm
+    We are going to use the last LTS (Long Term Support) version.
+    ```
+    nvm install 12.13.0
+    nvm use node 12.13.0
+    nvm use
+    ```
+### Check nodejs installation
+    ```
+    echo "console.log('Hello.')" > hello.js
+    node hello.js
+    ```
