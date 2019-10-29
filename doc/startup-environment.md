@@ -19,6 +19,8 @@
 - Install git if it is not there out of the box.
     ```
     sudo apt install git
+    git config --global user.email "angelcervera@gmail.com"
+    git config --global user.name "Angel Cervera"
     ```
 - Create an account in GitHub to share this repository.
 - Fork [the tutorial repository](https://github.com/angelcervera/nodejs-tutorial)
@@ -35,7 +37,7 @@
 ```snap install code```
 
 
-## Install NodeJS via NVM (10:00)
+## Install NodeJS via NVM (9:30)
 Few useful links:
 - [NVM Installation web site](https://github.com/nvm-sh/nvm#install--update-script)
 - [NVM Usage](https://github.com/nvm-sh/nvm#usage)
@@ -46,6 +48,7 @@ Few useful links:
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
     # Restart terminal
     nvm --version
+    npm --version
     ```
 ### Steps to install nodejs and npm
     We are going to use the last LTS (Long Term Support) version.
@@ -59,3 +62,5 @@ Few useful links:
     echo "console.log('Hello.')" > hello.js
     node hello.js
     ```
+
+## End environment installation (10:00)
