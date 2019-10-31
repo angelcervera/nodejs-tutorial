@@ -1,4 +1,4 @@
-# NodeJS one weekend tutorial
+# Startup Environment
 
 ## Install Ubuntu VM (8:00pm)
 - Use version 18.04.3
