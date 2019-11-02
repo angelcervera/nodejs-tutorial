@@ -48,7 +48,6 @@ Few useful links:
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
     # Restart terminal
     nvm --version
-    npm --version
     ```
 ### Steps to install nodejs and npm
     We are going to use the last LTS (Long Term Support) version.
@@ -61,6 +60,10 @@ Few useful links:
     ```
     echo "console.log('Hello.')" > hello.js
     node hello.js
+    ```
+### check npm installation
+    ```
+    npm --version
     ```
 
 ## End environment installation (10:00pm)
