@@ -1,0 +1,17 @@
+{
+  "name": "people-decide",
+  "version": "1.0.0",
+  "description": "People Decide.",
+  "main": "app.js",
+  "scripts": {
+    "info": "echo 'People Decide'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lint": "echo '=> linting' && jshint *.js"
+  },
+  "author": "Silvia Roldan and Angel Cervera",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  }
+}
